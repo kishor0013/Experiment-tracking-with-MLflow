@@ -43,7 +43,8 @@ with mlflow.start_run() as parent :
     #Logging the best model from grid search but first logging dataset without autolog
     best_params = grid_search.best_params_
     best_score = grid_search.best_score_
-
+    
+    
     mlflow.log_params(best_params)
     mlflow.log_metric('Accuracy',best_score) 
 
