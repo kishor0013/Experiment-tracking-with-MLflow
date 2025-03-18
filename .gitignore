@@ -1,3 +1,8 @@
+mlartifacts
+mlruns
+confusion_matrix.png
+requirements.txt
+myenv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
